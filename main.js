@@ -19,23 +19,23 @@ async function checkweather() {
 
     if (data.weather[0].main == "Rain") {
         const imgElement = document.getElementById('weather_img');
-        imgElement.src = "/images/rainy.png";
+        imgElement.src = "rainy.png";
     }
     else if (data.weather[0].main == "Clear") {
         const imgElement = document.getElementById('weather_img');
-        imgElement.src = '/images/cloud-sun.png';
+        imgElement.src = 'cloud-sun.png';
     }
     else if (data.weather[0].main == "Clouds") {
         const imgElement = document.getElementById('weather_img');
-        imgElement.src = '/images/cloudy.png';
+        imgElement.src = 'cloudy.png';
     }
     else if (data.weather[0].main == "Drizzle") {
         const imgElement = document.getElementById('weather_img');
-        imgElement.src = '/images/drizzle.png';
+        imgElement.src = 'drizzle.png';
     }
     else if (data.weather[0].main == "Mist") {
         const imgElement = document.getElementById('weather_img');
-        imgElement.src = '/images/mist.png';
+        imgElement.src = 'mist.png';
     }
 
 
