@@ -1,0 +1,89 @@
+#city_holder {
+    position: absolute;
+    width: 260px;
+}
+
+::placeholder {
+    color: black;
+    font-size: 22px;
+}
+
+#search_button {
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    margin-left: 261px;
+    margin-top: 0px;
+
+}
+
+.card {
+    width: 370px;
+    height: 460px;
+    background-color: rgb(102, 190, 224);
+    margin: 7%;
+    margin-left: 37%;
+    padding: 12px;
+    padding-top: 20px;
+}
+
+.cloud_sun {
+    height: 110px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 100px;
+
+}
+
+.city_name,
+.city_temp {
+    margin-top: 50px;
+    margin-left: 90px;
+    position: absolute;
+
+}
+
+.city_temp {
+    margin-top: 223px;
+    margin-left: 122px;
+    display: flex;
+}
+
+
+
+.humidity_img {
+    height: 50px;
+    margin-top: 335px;
+    position: absolute;
+}
+
+.img_under,
+.img_under1 {
+    position: absolute;
+    font-size: 19px;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+.city_humidity,
+.city_feel {
+    position: absolute;
+    margin-top: 337px;
+    margin-left: 70px;
+}
+
+
+.feels_like {
+    position: absolute;
+    height: 45px;
+    margin-left: 170px;
+    margin-top: 337px;
+}
+
+.img_under1 {
+    margin-left: 230px;
+}
+
+.city_feel {
+    margin-left: 220px;
+}
